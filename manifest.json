@@ -1,0 +1,11 @@
+{
+  "id": "obsidian-ai-tagger",
+  "name": "AI Tagger",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Automatically suggest and apply tags to your notes using Claude AI",
+  "author": "KANGBOLA",
+  "authorUrl": "https://github.com/KANGBOLA",
+  "fundingUrl": "https://github.com/sponsors/KANGBOLA",
+  "isDesktopOnly": false
+}
