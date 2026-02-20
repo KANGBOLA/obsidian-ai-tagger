@@ -1,0 +1,27 @@
+.ai-tagger-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.ai-tagger-tag {
+  padding: 4px 12px;
+  border-radius: 16px;
+  border: 1px solid var(--interactive-accent);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.15s ease;
+}
+
+.ai-tagger-tag:hover {
+  background: var(--interactive-accent-hover);
+  color: var(--text-on-accent);
+}
+
+.ai-tagger-tag.selected {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
